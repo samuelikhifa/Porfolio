@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me - Samuel Ikhifa</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="images\samlogo.webp" alt="samlogo" />
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="porfolio.html">Porfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Contact Form -->
+      <section id="contact-form">
+        <h2>Let's Connect</h2>
+        <div class="content-block">
+          <form
+            action="https://formsubmit.co/ikhifasamuel12@gmail.com"
+            method="POST"
+          >
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Your message here"
+              required
+            ></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Connect with Me -->
+      <section id="connect">
+        <h2>Connect with Me</h2>
+        <div class="content-block">
+          <p>
+            I'm always open to networking, collaborating on interesting
+            projects, or just having a friendly chat. Feel free to connect with
+            me through any of the platforms below:
+          </p>
+          <ul>
+            <li>
+              <img src="images\email.png" alt="email" />
+              <a href="https://ikhifasamuel12@gmail.com"
+                >ikhifasamuel12@gmail.com</a
+              >
+            </li>
+            <li>
+              <img src="images\linkedin.png" alt="Linkedin" />
+              <a
+                href="https://linkedin.com/in/ikhifa-samuel
+              "
+                target="_blank"
+                >linkedin.com/in/ikhifa-samuel</a
+              >
+            </li>
+            <li>
+              <img src="images\github.png" alt="github" />
+              <a href="https://github.com/samuelikhifa" target="_blank"
+                >github.com/samuelikhifa</a
+              >
+            </li>
+            <li>
+              ><img src="images\twitter.png" alt="Twitter" />
+              <a
+                href="https://x.com/Sam_Zulen?t=Wt5QNZHkT7Uj9QrRrNBVwQ&s=09"
+                target="_blank"
+              >
+                twitter.com/Sam_Zulen</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Samuel Ikhifa. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
